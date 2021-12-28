@@ -55,22 +55,246 @@ function generatePassword() {
   checkNumbers = checkPassword(allNumbers, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
   checkSpecialCharacters = checkPassword(allSpecialCharacters, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
   if (checkLowerCase === false && useLower === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkUpperCase === false && useUpper === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkNumbers === false && useNumbers === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkSpecialCharacters === false && useSpecial === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  checkLowerCase = checkPassword(allLowerCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkUpperCase = checkPassword(allUpperCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkNumbers = checkPassword(allNumbers, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkSpecialCharacters = checkPassword(allSpecialCharacters, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  if (checkLowerCase === false && useLower === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkUpperCase === false && useUpper === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkNumbers === false && useNumbers === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkSpecialCharacters === false && useSpecial === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  checkLowerCase = checkPassword(allLowerCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkUpperCase = checkPassword(allUpperCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkNumbers = checkPassword(allNumbers, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkSpecialCharacters = checkPassword(allSpecialCharacters, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  if (checkLowerCase === false && useLower === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkUpperCase === false && useUpper === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkNumbers === false && useNumbers === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkSpecialCharacters === false && useSpecial === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  checkLowerCase = checkPassword(allLowerCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkUpperCase = checkPassword(allUpperCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkNumbers = checkPassword(allNumbers, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkSpecialCharacters = checkPassword(allSpecialCharacters, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  if (checkLowerCase === false && useLower === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkUpperCase === false && useUpper === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkNumbers === false && useNumbers === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkSpecialCharacters === false && useSpecial === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  checkLowerCase = checkPassword(allLowerCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkUpperCase = checkPassword(allUpperCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkNumbers = checkPassword(allNumbers, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkSpecialCharacters = checkPassword(allSpecialCharacters, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  if (checkLowerCase === false && useLower === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkUpperCase === false && useUpper === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkNumbers === false && useNumbers === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkSpecialCharacters === false && useSpecial === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  checkLowerCase = checkPassword(allLowerCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkUpperCase = checkPassword(allUpperCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkNumbers = checkPassword(allNumbers, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkSpecialCharacters = checkPassword(allSpecialCharacters, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  if (checkLowerCase === false && useLower === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkUpperCase === false && useUpper === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkNumbers === false && useNumbers === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkSpecialCharacters === false && useSpecial === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  checkLowerCase = checkPassword(allLowerCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkUpperCase = checkPassword(allUpperCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkNumbers = checkPassword(allNumbers, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkSpecialCharacters = checkPassword(allSpecialCharacters, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  if (checkLowerCase === false && useLower === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkUpperCase === false && useUpper === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkNumbers === false && useNumbers === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  if (checkSpecialCharacters === false && useSpecial === true) {
+        password = "";
+    for (let i=0; i < passwordLength; i++) {
+    randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)];
+    password = password + randomCharacter;
+    }
+  }
+  checkLowerCase = checkPassword(allLowerCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkUpperCase = checkPassword(allUpperCase, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkNumbers = checkPassword(allNumbers, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  checkSpecialCharacters = checkPassword(allSpecialCharacters, [password[0], password[1], password[2], password[3], password[4], password[5], password[6], password[7]]);
+  if (checkLowerCase === false && useLower === true) {
     alert("Your password might not contain at least one lowercase letter. Please try again.") ? "" : location.reload();
     return ;
-  }
+    }
   if (checkUpperCase === false && useUpper === true) {
     alert("Your password might not contain at least one uppercase letter. Please try again.") ? "" : location.reload();
     return ;
-  }
+    }
   if (checkNumbers === false && useNumbers === true) {
     alert("Your password might not contain at least one number. Please try again.") ? "" : location.reload();
     return ;
-  }
+    }
   if (checkSpecialCharacters === false && useSpecial === true) {
     alert("Your password might not contain at least one special character. Please try again.") ? "" : location.reload();
     return ;
-  }
-return password;
+    }
+  return password;
 }
 
 // Write password to the #password input
